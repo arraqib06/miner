@@ -17,3 +17,14 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+# sudo apt-get update
+# sudo apt-get install libcurl4-openssl-dev git
+# sudo apt-get install build-essential # autotools-dev autoconf libcurl3 libcurl4-gnutls-dev
+# git clonehttps://github.com/wolf9466/cpuminer-multi
+# cd cpuminer-multi/
+# ./autogen.sh
+# CFLAGS="-march=native" ./configure
+make
+# sudo make install
+# screen
+# ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u arraqib25@gmail.com -p x -t 
